@@ -130,5 +130,25 @@ Displays prediction results and farming insights.
 3. Feature Selection
 4. Model Training
 5. Crop Yield Prediction
-6. Performance Evaluation
-7. Recommendation Generation
+
+## Dataset Attributes
+
+| Attribute Name   | Description                                     |
+| ---------------- | ----------------------------------------------- |
+| Farm_ID          | Unique identifier for each farm                 |
+| Crop_Type        | Type of crop (Rice, Wheat, Maize, Cotton, etc.) |
+| Soil_Type        | Type of soil (Clay, Loamy, Sandy, etc.)         |
+| Soil_pH          | pH value of the soil                            |
+| Temperature      | Average temperature (°C)                        |
+| Rainfall         | Annual rainfall (mm)                            |
+| Humidity         | Humidity percentage                             |
+| Fertilizer_Usage | Amount of fertilizer used (kg/hectare)          |
+| Irrigation_Level | Water supplied to the crop                      |
+| Area_Cultivated  | Cultivated land area (hectares)                 |
+| Previous_Yield   | Previous year's crop yield                      |
+| Crop_Yield       | Final crop yield (Target Variable)              |
+
+These attributes were selected because soil characteristics, weather conditions, fertilizer usage, and irrigation levels directly affect crop growth and productivity. The **Crop_Yield** attribute is used as the target variable that the Machine Learning model learns to predict, helping farmers improve agricultural planning and decision-making.
+
+7. Performance Evaluation
+8. Recommendation Generation
