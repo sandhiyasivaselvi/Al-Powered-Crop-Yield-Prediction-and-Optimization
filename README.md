@@ -130,6 +130,9 @@ Displays prediction results and farming insights.
 3. Feature Selection
 4. Model Training
 5. Crop Yield Prediction
+6. Performance Evaluation
+7. Performance Evaluation
+8. Recommendation Generation
 
 ## Dataset Attributes
 
@@ -150,5 +153,4 @@ Displays prediction results and farming insights.
 
 These attributes were selected because soil characteristics, weather conditions, fertilizer usage, and irrigation levels directly affect crop growth and productivity. The **Crop_Yield** attribute is used as the target variable that the Machine Learning model learns to predict, helping farmers improve agricultural planning and decision-making.
 
-7. Performance Evaluation
-8. Recommendation Generation
+
