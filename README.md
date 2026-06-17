@@ -12,14 +12,39 @@ Agriculture is highly dependent on environmental factors such as weather, soil q
 * Help farmers improve productivity and resource utilization.
 * Support data-driven decision-making in agriculture.
 
-## Features
+## Requirement Gathering
 
-* Crop yield prediction using Machine Learning.
-* Soil and weather data analysis.
-* Fertilizer recommendation system.
-* Irrigation optimization suggestions.
-* Farmer-friendly dashboard.
-* Agricultural performance reports.
+### Functional Requirements
+
+* Farmers should be able to enter crop, soil, and weather details.
+* The system should collect historical agricultural data.
+* The AI/ML model should predict crop yield based on input data.
+* The system should provide recommendations for fertilizers and irrigation.
+* Users should be able to view prediction results and optimization suggestions.
+* Admin should be able to manage datasets and monitor system performance.
+
+### Non-Functional Requirements
+
+* The system should provide accurate crop yield predictions.
+* The application should be user-friendly and easy to use.
+* Prediction results should be generated quickly.
+* The system should securely store user and agricultural data.
+* The application should be scalable for multiple users and regions.
+
+
+### Data Requirements
+
+* Historical crop yield data
+* Weather data (temperature, rainfall, humidity)
+* Soil data (pH, nutrients, moisture)
+* Fertilizer and irrigation information
+
+### Stakeholders
+
+* Farmers
+* Agricultural Experts
+* Researchers
+* System Administrator
 
 ## Technologies Used
 
